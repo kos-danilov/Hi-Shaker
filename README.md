@@ -11,3 +11,13 @@ hs.py file is a python3 script for working through command line (*python3 hs.py*
 - savefasta *path-to-original-fasta edited-fasta*, after command takes two arguments: path to the original fasta and name of new fasta;
 - help;
 - exit.
+
+# Dependencies
+matplotlib, numpy, h5py, scipy, Bio
+
+Install via pip:
+>python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
+
+>pip install h5py
+
+>pip install biopython
